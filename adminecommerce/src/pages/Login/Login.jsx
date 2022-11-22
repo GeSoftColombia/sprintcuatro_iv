@@ -63,7 +63,7 @@ export class Login extends Component{
                     alert(responseJson.message);
                     localStorage.setItem("usuario", JSON.stringify(responseJson.data));
                     //Redireccionar al usuario
-                    window.location = '/';
+                    window.location = '/dashboard';
                     break;
                 case 500:
                     alert(responseJson.message);
@@ -237,7 +237,7 @@ export class Login extends Component{
                             <span style={{color:'#46abc9'}}>
                                     ¿Tienes una cuenta?
                             </span>
-                            <Link to ="/registro" style={{marginBottom:'5px'}}>
+                            <Link to ="registro" style={{marginBottom:'5px'}}>
                                 Registrate
                             </Link>
                         </Grid>

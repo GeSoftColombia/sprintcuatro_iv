@@ -30,18 +30,18 @@ app.use('/api',tokenvalidation,userRouter);
 app.use('/images', express.static(path.join(__dirname, '..', 'public', 'images')))
 
 //Conexión a la base de datos ATLAS - CLOUDING
-// mongoose.connect(process.env.databaseUrlCloud).then(()=>{
-//     console.log("Mongo DB Cloud connected... " );
-// }).catch((error)=>{
-//     console.log("database connect error: " + error)
-// })
-
-//Conexión Local - Localhost
-mongoose.connect(process.env.databaseUrlLocal).then(()=>{
-    console.log("Mongo DB Local connected... " );
+mongoose.connect(process.env.databaseUrlCloud).then(()=>{
+    console.log("Mongo DB Cloud connected... " );
 }).catch((error)=>{
     console.log("database connect error: " + error)
 })
+
+//Conexión Local - Localhost
+// mongoose.connect(process.env.databaseUrlLocal).then(()=>{
+//     console.log("Mongo DB Local connected... " );
+// }).catch((error)=>{
+//     console.log("database connect error: " + error)
+// })
 
 
 app.listen(process.env.appPort,() => { 
