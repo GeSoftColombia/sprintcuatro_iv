@@ -59,16 +59,7 @@ export const Header = () => {
                   })}
                 </ul>
               </li>
-              <NavDropdown title="Administración" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="/nuevo">Nuevo Producto</NavDropdown.Item>
-              <NavDropdown.Item href="/nuevacategoria">
-                Nueva Categoria
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/Ventas">
-                Resumen Ventas
-              </NavDropdown.Item>
-            </NavDropdown>  
+              
             </ul>
             
             
