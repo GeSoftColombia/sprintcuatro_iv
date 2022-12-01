@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { DataContext } from "../../Context/DataProvider";
+import React from "react"
 import categoriaModel from "../../models/categoriaModel";
 import { AppCarousel } from "../AppCarousel/AppCarousel";
 import {AppFooter} from '../Footer/Footer';

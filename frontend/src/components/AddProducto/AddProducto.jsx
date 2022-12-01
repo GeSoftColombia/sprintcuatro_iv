@@ -1,3 +1,5 @@
+
+import React from "react"
 import './AddProducto.css'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';

@@ -1,3 +1,5 @@
+
+import React from "react"
 import { Comidas } from "../Comidas/Comidas";
 import { Bebidas } from "../Bebidas/Bebidas";
 import { Miscelaneas } from "../Miscelaneas/Miscelaneas";

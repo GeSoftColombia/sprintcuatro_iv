@@ -1,3 +1,5 @@
+
+import React from "react"
 import { Route, Routes } from "react-router-dom"
 import { AddProducto } from "./components/AddProducto/AddProducto"
 import { Inicio } from "./components/Inicio/Inicio"

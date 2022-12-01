@@ -1,8 +1,8 @@
+
+import React from "react"
 import { createContext, useEffect, useState } from "react";
 
-
 export const DataContext = createContext();
-
 
 export const DataProvider = (props) =>{
 

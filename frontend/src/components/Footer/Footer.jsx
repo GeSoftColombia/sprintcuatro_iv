@@ -1,3 +1,5 @@
+
+import React from "react"
 export const AppFooter = () => {
 
   const Pie = "© 2022 Gesoftcol. All rights reserved.";
